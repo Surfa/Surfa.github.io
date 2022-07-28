@@ -1,0 +1,11 @@
+body {
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-weight: bold;
+}
+
+.flexcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+}

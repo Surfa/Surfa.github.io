@@ -1,19 +1,70 @@
-<head>
-<style>
-body {
-	font-family: "Lucida Console", "Courier New", monospace;
-	color: Ivory;
-	font-weight: bold;
-	background-color: SlateGrey;
-}
-</style>
-</head>
-<body><h1>Website of Surfa</h1>
-<h2>Game Projects</h2>
-<h3>Lundum Dare</h3>
-<h4>LD 50</h4>
-<p>For lundum dare 50 the theme was 'Inevitable' for this I paired up with <a href="https://mistagiggles.github.io/">Mista Giggles</a>.
-</br>We worked on a game called 'Inevitable Dungeon' a small dungeon crawler where death is Inevitable.</p>
-<p> The game can be played on my <a href="https://surfa.itch.io/inevitable-dungeon">ITCH.IO page</a>. This is the version that was submitted at the end of the jam without any bug fixes. </br>
-We know of a couple of game-breaking bugs involving the death and 'death-bag' mechanics</p>
-<img src="inevitable_ss1.png" width="1280" height="720"/></body>
+<!doctype html>
+<html lang="en">
+  
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>WEBSITE OF IAN BEECRAFT</h1>
+      <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <button class="nav-link active" id="nav-games-tab" data-bs-toggle="tab" data-bs-target="#nav-games" type="button" role="tab" aria-controls="nav-games" aria-selected="true">Game Projects</button>
+          <button class="nav-link" id="nav-3d-tab" data-bs-toggle="tab" data-bs-target="#nav-3d" type="button" role="tab" aria-controls="nav-3d" aria-selected="true">3D Models</button>
+          <button class="nav-link" id="nav-about-tab" data-bs-toggle="tab" data-bs-target="#nav-about" type="button" role="tab" aria-controls="nav-about" aria-selected="true">About</button>
+        </div>
+      </nav>
+    </div>
+      <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-games" role="tabpanel" aria-labelledby="nav-games-tab" tabindex="0">
+        <h2>Game Projects</h2>
+        <div class="flexcontainer">
+          <div class="card mw-25" style="width: 30rem; margin: 10px;">
+            <img class="card-img-top" src="inevitable_ss1.png" alt="Title screen of game - inevitable-dungeon"/>
+            <div class="card-body">
+              <h5 class="card-title">LD 50 - Inevitable Dungeon</h4>
+              <p class="card-text">For lundum dare 50 the theme was 'Inevitable' for this jam I paired up with <a href="https://mistagiggles.github.io/">Mista Giggles</a>.
+              We worked on a game called 'Inevitable Dungeon' a small 2D pixel art dungeon crawler where death is Inevitable, but items stored in your death bag can be kept when you respawn.</p>
+              <p class="card-text"> The game can be played on my <a href="https://surfa.itch.io/inevitable-dungeon">ITCH.IO page</a>.  
+              This is the version that was submitted at the end of the jam without many additional bug fixes. The game was built using the
+              <a href="https://godotengine.org/">GODOT Engine</a> using GDSCRIPT. Everything was created by myself and Matt for the jam with no asssets or previous work used.</p>
+              <a href="LD50.html" class="btn btn-primary">See More</a>
+            </div>
+          </div>
+
+          <div class="card mw-25" style="width: 30rem; margin: 10px;">
+            <img lass="card-img-top" src="scootles_intro.png" alt="Title screen of game - scootles"/>
+            <div class="card-body">
+              <h5 class="card-title">LD 49 - Scootles</h5>
+              <p class="card-text">For lundum dare 49 the theme was 'unstable' I teamed up with <a href="https://mistagiggles.github.io/">Mista Giggles</a> and <a href="https://tomfox.games">Tom Fox</a>.
+              We worked on a game called scootles which involved a mobility scooter with an unstable throttle. The premise was to collect your shopping without crashing into everything.</p>
+              <p>I did alot of the custom models for the game. Some assets from the unity asset store were used such as the characters and some of the props were from a Kenny asset pack. We all contributed on 
+              the coding side.</p>
+              <a href="LD49.html" class="btn btn-primary">See More</a>
+            </div>
+          </div>
+
+          <div class="card mw-25" style="width: 30rem; margin: 10px;">
+            <img lass="card-img-top" src="scootles_intro.png" alt="Screenshot of game Mini Knight"/>
+            <div class="card-body">
+              <h5 class="card-title">Mini-Knight</h5>
+              <p class="card-text"></p>
+              <a href="mini-knight.html" class="btn btn-primary">See More</a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="tab-pane fade" id="nav-3d" role="tabpanel" aria-labelledby="nav-3d-tab" tabindex="0">
+        <h2>3D Models</h2>
+      </div>
+
+      <div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab" tabindex="0">
+        <h2>About Me</h2>
+      </div>
+    </div>
+  </body>
+</html>
